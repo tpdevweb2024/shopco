@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="./assets/scss/style.scss">
+</head>
+
+<body>
+  <div id="topbar">
+    <div class="container">
+      <div class="text">
+        Sign up and get 20% off to your first order. <span>Sign Up Now</span>
+      </div>
+      <img src="./assets/icons/times.svg" alt="fermer" class="close">
+    </div>
+  </div>
+  <header>
+    <div class="container">
+      <div class="hamburger">
+        <img src="./assets/icons/hamburger.svg" alt="menu">
+      </div>
+      <div class="logo">
+        SHOP.CO
+      </div>
+      <div class="menu">
+        <nav>
+          <ul>
+            <li>Shop</li>
+            <li>On sale</li>
+            <li>New arrivals</li>
+            <li>Brands</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="search">
+        <img src="./assets/icons/search.svg" alt="">
+        <input type="text" placeholder="Search for products">
+      </div>
+      <div class="actions">
+        <div class="search_icon">
+          <img src="./assets/icons/search.svg" alt="rechercher">
+        </div>
+        <div class="cart_icon">
+          <img src="./assets/icons/cart.svg" alt="panier">
+        </div>
+        <div class="profile_icon">
+          <img src="./assets/icons/profile.svg" alt="profile">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="breadcrumb">
+    <div class="container">
+      <div class="root">Home</div>
+      <span> > </span>
+      <div class="actual">Cart</div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="container">
+      <div class="cart">
+        <div class="title">
+          <h1>Your Cart</h1>
+        </div>
+        <div class="cart_content">
+          <div class="cart_items">
+            <div class="cart_item">
+              <div class="image">
+                <img src="./assets/images/graphic-shirt-1.png" alt="">
+              </div>
+              <div class="content">
+                <div class="up">
+                  <div class="info">
+                    <div class="title">Gradient Graphic T-shirt</div>
+                    <div class="size">Size: <span>Large</span></div>
+                    <div class="color">Color: <span>White</span></div>
+                  </div>
+                  <div class="trash_icon">
+                    <img src="./assets/icons/trash-red.svg" alt="Supprimer">
+                  </div>
+                </div>
+                <div class="down">
+                  <div class="price">$145</div>
+                  <div class="quantity">
+                    <div class="less">-</div>
+                    <div class="choosen">1</div>
+                    <div class="more">+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart_item">
+              <div class="image">
+                <img src="./assets/images/jersey-2.png" alt="">
+              </div>
+              <div class="content">
+                <div class="up">
+                  <div class="info">
+                    <div class="title">Checkered shirt</div>
+                    <div class="size">Size: <span>Medium</span></div>
+                    <div class="color">Color: <span>Red</span></div>
+                  </div>
+                  <div class="trash_icon">
+                    <img src="./assets/icons/trash-red.svg" alt="Supprimer">
+                  </div>
+                </div>
+                <div class="down">
+                  <div class="price">$180</div>
+                  <div class="quantity">
+                    <div class="less">-</div>
+                    <div class="choosen">1</div>
+                    <div class="more">+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart_item">
+              <div class="image">
+                <img src="./assets/images/jean-3.png" alt="">
+              </div>
+              <div class="content">
+                <div class="up">
+                  <div class="info">
+                    <div class="title">Skinny fit jeans</div>
+                    <div class="size">Size: <span>Large</span></div>
+                    <div class="color">Color: <span>White</span></div>
+                  </div>
+                  <div class="trash_icon">
+                    <img src="./assets/icons/trash-red.svg" alt="Supprimer">
+                  </div>
+                </div>
+                <div class="down">
+                  <div class="price">$240</div>
+                  <div class="quantity">
+                    <div class="less">-</div>
+                    <div class="choosen">1</div>
+                    <div class="more">+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cart_details">
+            <div class="title">
+              <h2>Order Summary</h2>
+            </div>
+            <div class="lines">
+              <div class="subtotal">
+                <div class="text">Subtotal</div>
+                <div class="price">$565</div>
+              </div>
+              <div class="discount">
+                <div class="text">Discount (-20%)</div>
+                <div class="price">-$113</div>
+              </div>
+              <div class="delivery">
+                <div class="text">Delivery Fee</div>
+                <div class="price">$15</div>
+              </div>
+              <div class="total">
+                <div class="text">Total</div>
+                <div class="price">$467</div>
+              </div>
+            </div>
+            <div class="promo">
+              <form action="">
+                <div class="input_promocode">
+                  <img src="./assets/icons/promo-code.svg" alt="Promo code">
+                  <input type="text" placeholder="Add promo code">
+                </div>
+                <div class="apply">
+                  <input type="submit" value="Apply">
+                </div>
+              </form>
+            </div>
+            <div class="checkout">
+              <a href="#">Go to checkout <img src="./assets/icons/arrow-right.svg" alt="go to checkout"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="block">
+        <div class="message">
+          STAY UPTO DATE ABOUT OUR LATEST OFFERS
+        </div>
+        <div></div>
+        <div class="subscribe">
+          <input type="text">
+          <button>Subscribe to Newsletter</button>
+        </div>
+      </div>
+      <div class="content">
+        <div class="logo">
+          <a href="">SHOP.CO</a>
+          <p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+          <div class="socials"></div>
+        </div>
+        <div class="footer_menu">
+          <div class="company">
+            <h4>Company</h4>
+            <ul>
+              <li>About</li>
+              <li>Features</li>
+              <li>Works</li>
+              <li>Career</li>
+            </ul>
+          </div>
+          <div class="help">
+            <h4>Help</h4>
+            <ul>
+              <li>Customer Support</li>
+              <li>Delivery Details</li>
+              <li>Terms and conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="faq">
+            <h4>FAQ</h4>
+            <ul>
+              <li>Account</li>
+              <li>Manage Deliveries</li>
+              <li>Orders</li>
+              <li>Payments</li>
+            </ul>
+          </div>
+          <div class="resources">
+            <h4>Resources</h4>
+            <ul>
+              <li>Free Ebooks</li>
+              <li>Development Tutorial</li>
+              <li>How to - Blog</li>
+              <li>Youtube Playlist</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom_bar">
+      <div class="container">
+        <div class="text">
+          Shop.co © 2000-2023, All Rights Reserved
+        </div>
+        <div class="cards">
+          <div>
+            <img src="./assets/images/Card1.png" alt="Visa">
+          </div>
+          <div>
+            <img src="./assets/images/Card2.png" alt="Mastercard">
+          </div>
+          <div>
+            <img src="./assets/images/Card3.png" alt="Paypal">
+          </div>
+          <div>
+            <img src="./assets/images/Card4.png" alt="Apple Pay">
+          </div>
+          <div>
+            <img src="./assets/images/Card5.png" alt="Google Pay">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./assets/js/main.js"></script>
+</body>
+
+</html>
