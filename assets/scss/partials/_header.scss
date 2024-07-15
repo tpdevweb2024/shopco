@@ -29,9 +29,6 @@
       top: 7px;
       width: 0.8rem;
       height: 0.8rem;
-      @media screen and (width < $breakpoint) {
-        display: none;
-      }
     }
   }
 }
@@ -76,8 +73,19 @@ header {
 
     .menu {
       @media screen and (width < $breakpoint) {
+        display: none;
         order: 3;
         width: 100%;
+
+        // &.open === .menu.open !== .menu .open !== .menu > .open
+        &.open {
+          display: block;
+          position: absolute;
+          top: 50px;
+          left: 0;
+          background-color: #fff;
+          border-bottom: 2px solid black;
+        }
       }
 
       nav {
